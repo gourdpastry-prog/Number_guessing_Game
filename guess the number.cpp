@@ -11,7 +11,7 @@ int main() {
     srand(time(0));
     int lucky_number = rand() % max;
     lucky_number + 1;
-    std::cout << "Good number, start guessing.\n\n"
+    std::cout << "Good number, start guessing.\n\n";
     std::cin >> input;
 
     while (input != lucky_number) {
@@ -23,3 +23,4 @@ int main() {
     return 0;
 
 }
+
